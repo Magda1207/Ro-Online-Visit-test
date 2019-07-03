@@ -1,6 +1,6 @@
 # Ro-Online-Visit-test
 
-To run the test use cmd command:
+To run the test use cmd command:<br>
 testcafe firefox EDOnlineVisit.js
 
 Test scenarios:
@@ -14,5 +14,6 @@ Known issues:
 1. Start page is set to: `https://start.ro.co/roman/ed/?utm_expid=.O9vTFADVROq81tYvJb_UdQ.0&utm_referrer=` instead of  `https://start.ro.co/roman/ed/`.<br>
 This is due to redirection that happens when loading `https://start.ro.co/roman/ed/` and 'beforeunload' event fired (application issue?)
 
-2. Sometimes loading of application takes too long and script fails. Awaiting timeout may need to be increased (to be investigated)
+2. Sometimes loading of application takes too long and script fails. <br>
+Awaiting timeout may need to be increased (to be investigated)
 
