@@ -7,7 +7,7 @@ fixture `ED Online visit' - regression test`
 export default class Page {
     constructor () {
         this.nextButton = Selector('.flow-question-overlay--in').find('button');
-		this.inputField = Selector('.flow-question-overlay--in').find('input'); //, { timeout: 30000 }
+		this.inputField = Selector('.flow-question-overlay--in').find('input'); 
 		this.checkBox = Selector('.flow-question-overlay--in').find('.checkbox-label');
 		this.textArea = Selector('.flow-question-overlay--in').find('.flow-question-textarea');
 		this.genderButton = Selector('.choice-item');
